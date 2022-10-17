@@ -23,7 +23,7 @@ let weather={
         let p=parseInt(temp-273);
         document.querySelector(".temp").innerText=p+"°C";
         document.querySelector(".humidity").innerText="Humidity "+humidity +"%";
-        document.querySelector(".wind").innerText="Wind spped: "+speed+" km/h";
+        document.querySelector(".wind").innerText="Wind speed: "+speed+" km/h";
         document.querySelector(".weather").classList.remove("loading");
         
     },
